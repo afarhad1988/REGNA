@@ -14,23 +14,23 @@
 	<div class="container header-container">
 		<a href="#" class="logo-link"><img class="logo-img" src="./image/logo.png" alt="logo"></a>
 		<nav class="menu">
-			<a class="menu-item" href="#">home</a>
-			<a class="menu-item" href="#">about</a>
-			<a class="menu-item" href="#">services</a>
-			<a class="menu-item" href="#">portfolio</a>
-			<a class="menu-item" href="#">team</a>
-			<a class="menu-item" href="#">contact</a>
+			<a class="menu-item" href="#hero">home</a>
+			<a class="menu-item" href="#about">about</a>
+			<a class="menu-item" href="#facts">services</a>
+			<a class="menu-item" href="#services">portfolio</a>
+			<a class="menu-item" href="#portfolio">team</a>
+			<a class="menu-item" href="#contact">contact</a>
 		</nav>
 	</div>
 </header>
-<section class="hero">
+<section id="hero" class="hero">
 	<div class="container">
 		<h1 class="hero-title">welcome to regna</h1>
 		<h2 class="hero-desc">We are team of talented designers making websites with Bootstrap</h2>
 		<a href="#" class="hero-link">get started</a>
 	</div>
 </section>
-<section class="about">
+<section id="about" class="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
@@ -71,7 +71,7 @@
 		</div>
 	</div>
 </section>
-<section class="facts">
+<section id="facts" class="facts">
 	<div class="container">
 		<h2 class="title">facts</h2>
 		<p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -97,7 +97,7 @@
 		</div>
 	</div>
 </section>
-<section class="services">
+<section id="services" class="services">
 	<div class="container">
 		<h2 class="title">services</h2>
 		<p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -155,12 +155,18 @@
 		</div>
 	</div>
 </section>
-<section class="portfolio">
+<section id="portfolio" class="portfolio">
 	<div class="container">
 		<h2 class="title">portfolio</h2>
 		<p class="description">
 			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
 		</p>
+		<ul class="portfolio-filters">
+			<li class="filter"><a class="filter-link" href="">All</a></li>
+			<li class="filter"><a class="filter-link" href="">App</a></li>
+			<li class="filter"><a class="filter-link" href="">Card</a></li>
+			<li class="filter"><a class="filter-link" href="">Web</a></li>
+		</ul>
 		<div class="row">
 			<div class="col-4">
 				<div class="portfolio-item">
@@ -246,7 +252,7 @@
 		</div>
 	</div>
 </section>
-<section class="team">
+<section id="team" class="team">
 	<div class="container">
 		<h2 class="title">team</h2>
 		<p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -254,7 +260,11 @@
 		<div class="row">
 			<div class="col-3">
 				<div class="team-card">
-					<img src="./image/team-1.jpg" alt="team" class="team-img">
+					<div class="team-card-item">
+						<div class="team-card-item-next">
+							<img src="./image/team-1.jpg" alt="team" class="team-img">
+						</div>
+					</div>
 				</div>
 				<h4 class="team-card-title">walter white</h4>
 				<p class="team-card-desc">chief executive officer</p>
@@ -265,7 +275,11 @@
 			</div>
 			<div class="col-3">
 				<div class="team-card">
-					<img src="./image/team-2.jpg" alt="team" class="team-img">
+					<div class="team-card-item">
+						<div class="team-card-item-next">
+							<img src="./image/team-2.jpg" alt="team" class="team-img">
+						</div>
+					</div>
 				</div>
 				<h4 class="team-card-title">sarah jhinson</h4>
 				<p class="team-card-desc">product manager</p>
@@ -276,7 +290,11 @@
 			</div>
 			<div class="col-3">
 				<div class="team-card">
-					<img src="./image/team-3.jpg" alt="team" class="team-img">
+					<div class="team-card-item">
+						<div class="team-card-item-next">
+							<img src="./image/team-3.jpg" alt="team" class="team-img">
+						</div>
+					</div>
 				</div>
 				<h4 class="team-card-title">wiliam anderson</h4>
 				<p class="team-card-desc">CTO</p>
@@ -287,7 +305,11 @@
 			</div>
 			<div class="col-3">
 				<div class="team-card">
-					<img src="./image/team-4.jpg" alt="team" class="team-img">
+					<div class="team-card-item">
+						<div class="team-card-item-next">
+							<img src="./image/team-4.jpg" alt="team" class="team-img">
+						</div>
+					</div>
 				</div>
 				<h4 class="team-card-title">amanda jepson</h4>
 				<p class="team-card-desc">accountant</p>
@@ -299,7 +321,7 @@
 		</div>
 	</div>
 </section>
-<section class="contact">
+<section id="contact" class="contact">
 	<div class="container">
 		<h2 class="title">contact</h2>
 		<p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
