@@ -1,0 +1,169 @@
+@media (max-width: 1200px) {
+  .container{
+      width: 950px;
+  }
+
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+    .hero-desc{
+        font-size: 20px;
+    }
+    .hero-link{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .about-title{
+        font-size: 28px;
+    }
+    .about-icon {
+        width: 55px;
+        min-width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .facts, .services, .portfolio, .team, .contact {
+        padding: 60px 0 40px;
+    }
+    .facts-item-title {
+        font-size: 40px;
+    }
+    .col-4, .team .col-3, .portfolio .col-4 {
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+   .container{
+       width: 530px;
+   }
+    .hero-title{
+        font-size: 40px;
+    }
+    .hero-desc{
+        font-size: 15px;
+    }
+    .col-6{
+      width: 100%;
+    }
+    .about-img{
+        height: 400px;
+    }
+    .facts-item-title{
+      font-size: 32px;
+    }
+    .facts-item{
+        margin-bottom: 20px;
+    }
+    .services-item{
+        padding: 50px 12px;
+    }
+    .team-card{
+        margin-bottom: 10px;
+    }
+    .team-card-desc{
+        margin-bottom: 10px;
+    }
+   .contact-info{
+       flex-direction: column;
+       align-items: center;
+
+   }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width: 315px;
+    }
+    .menu{
+        display: none;
+    }
+    .logo-img{
+        max-width: 100px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .about-title{
+        font-size: 21px;
+        margin-bottom: 7px;
+    }
+    .about-icon {
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+        font-size: 14px;
+        border: 1px solid #2dc997;
+
+    }
+    .about-description{
+        font-size: 14px;
+    }
+    .about-info-title{
+        font-size: 16px;
+    }
+    .about-img{
+        height: 250px;
+    }
+    .hero-title{
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+    .hero-desc{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .hero-link{
+        font-size: 11px;
+        padding: 6px 11px;
+    }
+    .col-4, .team .col-3, .portfolio .col-4 {
+        width: 100%;
+    }
+
+    .team-card {
+        margin-bottom: 10px;
+    }
+    .facts-static{
+        flex-direction: column;
+    }
+    .about, .facts, .services, .portfolio, .team, .contact {
+        padding: 40px 0 20px;
+    }
+    .services-item{
+        padding: 35px 12px;
+    }
+    .filter-link{
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+    .contact-form-item{
+        width: 290px;
+        font-size: 13px;
+    }
+    .contact-btn{
+        font-size: 13px;
+    }
+    .contact-social span{
+        font-size: 25px ;
+
+    }
+    .contact-info-address{
+     margin-bottom: 15px;
+    }
+    .footer-title{
+        font-size: 12px;
+    }
+    .footer-subtitle{
+        font-size: 12px;
+    }
+}
