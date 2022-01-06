@@ -549,3 +549,9 @@ p {
 .footer-design {
     color: #2dc997;
 }
+
+.burger{
+    display: none;
+    font-size: 28px;
+    color: #fff;
+}
