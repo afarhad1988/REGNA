@@ -166,9 +166,6 @@
     .facts-static {
         flex-direction: column;
     }
-    .facts-item-title{
-        font-size: 25px;
-    }
 
     .about, .facts, .services, .portfolio, .team, .contact {
         padding: 40px 0 20px;
