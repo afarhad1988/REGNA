@@ -4,12 +4,12 @@ const menuLinks = document.querySelectorAll('.menu-item')
 
 myBurger.addEventListener('click', ()=>{
 	myMenu.classList.toggle('show')
-	document.body.classList.toggle('.o-hidden')
+	document.body.classList.toggle('o-hidden')
 
 })
 menuLinks.forEach(oneLink => {
 	oneLink.addEventListener('click', () =>{
 		myMenu.classList.remove('show')
-		document.body.classList.remove('.o-hidden')
+		document.body.classList.remove('o-hidden')
 	})
 })
